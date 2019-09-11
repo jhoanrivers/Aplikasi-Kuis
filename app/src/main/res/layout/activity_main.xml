@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b4f6d2"
+    android:orientation="vertical"
+    tools:context="com.company.jhoanrivers.belajarbahasainggris.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/TxtScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="Score"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="0"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:fontFamily="casual"
+            android:text="Question"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/questionupdatenumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:fontFamily="casual"
+            android:text="1"
+            android:textSize="18sp" />
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/TxtQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginBottom="40dp"
+        android:lineSpacingExtra="8sp"
+        android:padding="8dp"
+        android:text="simple past sentence form, choose the correct"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/choose1"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="14dp"
+        android:layout_marginLeft="30dp"
+        android:background="#0091EA"
+        android:padding="8dp"
+        android:text="I am sitting on the chair"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/choose2"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="14dp"
+        android:layout_marginLeft="30dp"
+        android:background="#0091EA"
+        android:padding="8dp"
+        android:text="I bought sponge cake yesterday"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/choose3"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="14dp"
+        android:layout_marginLeft="30dp"
+        android:background="#0091EA"
+        android:padding="8dp"
+        android:text="I have studied english"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/choose4"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="14dp"
+        android:layout_marginLeft="30dp"
+        android:background="#0091EA"
+        android:padding="8dp"
+        android:text="she is my cousin"
+        android:textColor="#fff" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginTop="40dp"
+        android:padding="8dp">
+
+    </RelativeLayout>
+
+</LinearLayout>
